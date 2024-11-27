@@ -1,0 +1,26 @@
+Package: arimab
+Title: ARIMA Modelling of Time Series
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Bruno",
+           family = "Faria",
+           role = c("aut", "cre"),
+           email = "brunofariadf@gmail.com",
+           comment = c(ORCID = "0000-0002-1612-3991"))
+Description: The arimab is a wrapper of the r-base arima function with the addition of a formula to model the time series with inclusion of covariates in the model. In addition, the pre-bleaching method is added to analyze the correlation of covariates with the response variable based on Box etc al (2014) and Cryer and Chan (2008).
+Depends:
+    R (>= 4.3.0)
+Imports: 
+    stats
+Suggests:
+    tseries,
+    forecast,
+    lubridate,
+    ggplot2,
+    grid,
+    latex2exp,
+    gridExtra
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
