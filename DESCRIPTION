@@ -11,7 +11,7 @@ Description: The arimab is a wrapper of the r-base arima function with the addit
 Depends:
     R (>= 4.3.0)
 Imports: 
-    stats
+    stats,
     tseries,
     forecast,
     lubridate,
