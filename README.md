@@ -31,8 +31,10 @@ This is a basic example that shows how to use a package function.
 
 - R
 ``` r
-# count line of code in the script
+# get dataset
 df_train <- arimab::bacen[1:100,]
+
+# arima adjustment
 fit_arima <- arimab::arimab(rate ~ arimab::lagb(inflation, -7), data = df_train)
 summary(fit_arima)
 # > summary(fit_arima)
